@@ -1,0 +1,268 @@
+.customer-form-container h2 {
+  text-align: center;
+}
+
+/* Form Group Container */
+.customer-form-group {
+  margin-bottom: 1rem;
+}
+
+/* Label Styling */
+.customer-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+<<<<<<< HEAD
+  color: #735c3b; /* dark accent text */
+=======
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+}
+
+/* Input and Button Horizontal Wrapper */
+.customer-form-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+/* Text Field Input */
+.customer-form-input-wrapper input {
+  flex: 1;
+  padding: 0.4rem;
+<<<<<<< HEAD
+  border: 1px solid #735c3b; /* dark border */
+  border-radius: 4px;
+  font-size: 0.95rem;
+  background-color: #f1eee3; /* light accent background */
+  color: #735c3b;
+}
+
+.customer-form-input-wrapper input:focus {
+  outline: none;
+  border-color: #06402a; /* highlight border */
+=======
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+}
+
+/* CLEAR Button */
+.customer-form-input-wrapper button {
+  padding: 0.4rem 0.6rem;
+<<<<<<< HEAD
+  background-color: #735c3b;
+  color: #f1eee3;
+=======
+  background-color: rgb(166, 138, 0);
+  color: white;
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+  height: auto;
+  white-space: nowrap;
+}
+
+.customer-form-input-wrapper button:hover {
+<<<<<<< HEAD
+  background-color: #06402a;
+  color: #735c3b;
+=======
+  background-color: rgba(251, 210, 4, 0.934);
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+}
+
+/* Validation Error Text */
+.error-text {
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+}
+
+/* Buttons Under Form */
+.customer-form-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.customer-form-buttons button {
+  padding: 0.5rem 1rem;
+<<<<<<< HEAD
+  background-color: #735c3b;
+  color: #f1eee3;
+=======
+  background-color: rgb(166, 138, 0);
+  color: white;
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.customer-form-buttons button:hover {
+<<<<<<< HEAD
+  background-color: #06402a;
+  color: #735c3b;
+=======
+  background-color: rgba(251, 210, 4, 0.934);
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+}
+
+/* Status Message */
+.submit-status {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+<<<<<<< HEAD
+/* Disabled Button */
+.customer-form-buttons button:disabled {
+  background-color: #888;
+=======
+/* \src\pages\CustomerInfoForm.css */
+.customer-form-buttons button:disabled {
+  background-color: #888;           /* gray out */
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+  color: #ddd;
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.submit-success {
+  text-align: justify;
+  max-width: 600px;
+  margin: 1rem auto;
+  font-size: 1rem;
+  color: #2e7d32;
+  line-height: 1.6;
+}
+
+/* Lightbox modal background */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+<<<<<<< HEAD
+  background: rgba(115, 92, 59, 0.7); /* dark overlay using palette */
+=======
+  background: rgba(0,0,0,0.7);
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Modal box */
+.modal-box {
+<<<<<<< HEAD
+  background: #f1eee3; /* light modal background */
+=======
+  background: #fff;
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+<<<<<<< HEAD
+  color: #735c3b;
+  box-shadow: 0 5px 20px rgba(115, 92, 59, 0.3);
+=======
+  color: #333;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+
+  /* 👇 make it scale on smaller screens */
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Modal scrollable content */
+.modal-content {
+<<<<<<< HEAD
+  flex: 1;
+  max-height: 60vh;
+=======
+  flex: 1;                  /* 👈 let it take remaining height */
+  max-height: 60vh;         /* 👈 prevent it from going out of screen */
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+  overflow-y: auto;
+  margin-top: 10px;
+  padding-right: 5px;
+}
+
+/* Terms + Checkbox wrapper */
+.terms-wrapper {
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+
+.terms-container {
+  display: flex;
+<<<<<<< HEAD
+  align-items: flex-start;
+=======
+  align-items: flex-start;   /* align checkbox with top of first text line */
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+  gap: 8px;
+}
+
+.terms-container label {
+<<<<<<< HEAD
+  white-space: normal;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #735c3b;
+=======
+  white-space: normal;       /* allow wrapping */
+  font-size: 0.9rem;
+  line-height: 1.4;
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+}
+
+/* RESPONSIVE TWEAKS */
+@media (max-width: 600px) {
+  .modal-box {
+<<<<<<< HEAD
+    width: 95%;
+    padding: 15px;
+    max-height: 85vh;
+  }
+
+  .modal-content {
+    max-height: 55vh;
+    font-size: 0.9rem;
+  }
+
+  .terms-container label {
+    font-size: 0.85rem;
+=======
+    width: 95%;        /* 👈 fill more width */
+    padding: 15px;     /* 👈 smaller padding */
+    max-height: 85vh;  /* 👈 slightly taller for phones */
+  }
+
+  .modal-content {
+    max-height: 55vh;  /* 👈 adjust scroll area */
+    font-size: 0.9rem; /* 👈 smaller text */
+  }
+
+  .terms-container label {
+    font-size: 0.85rem; /* 👈 readable but compact */
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
+    line-height: 1.4;
+  }
+}
