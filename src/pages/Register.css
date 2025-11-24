@@ -1,0 +1,137 @@
+/* PAGE BACKGROUND */
+.register-page {
+  background: #F5F1E8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+}
+
+/* MAIN WHITE BOX */
+.register-container {
+  background: white;
+  width: 95%;
+  max-width: 1150px;
+  padding: 45px 55px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: center;
+}
+
+/* WHITE FORM BOX SITS IN CENTER */
+.register-box {
+  width: 60%;
+}
+
+/* CENTERED TITLE */
+.register-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #06402B;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* INFO TEXT UNDER TITLE */
+.register-info {
+  text-align: center;
+  color: #444;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+/* LABEL + Required ALIGN LIKE LOGIN */
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+
+/* Same Required style as Login page */
+.required-tag {
+  font-size: 13px;
+  color: #777;
+}
+
+/* INPUT LABEL */
+.register-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* INPUT FIELDS */
+.register-input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+  box-sizing: border-box; 
+}
+
+.register-input:focus {
+  border-color: #06402B;
+  outline: none;
+}
+
+/* PASSWORD DESCRIPTION SAME AS LOGIN */
+.field-description {
+  font-size: 12.5px;
+  color: #666;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  line-height: 1.35;
+}
+
+/* SHOW PASSWORD */
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.checkbox-row input {
+  width: 16px;
+  height: 16px;
+}
+
+/* REGISTER BUTTON */
+.register-btn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 14px;
+  background: #06402B;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-sizing: border-box; 
+}
+
+.register-btn:hover {
+  background: #042a1d;
+}
+
+/* LOGIN LINK */
+.login-link {
+  margin-top: 18px;
+  display: inline-block;
+  color: #06402B;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .register-box {
+    width: 100%;
+  }
+}

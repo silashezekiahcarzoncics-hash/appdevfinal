@@ -1,0 +1,141 @@
+.cart-sidebar {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  width: 320px;
+  max-width: 75vw;
+  height: calc(100% - 50px);
+  background: #f1eee3;
+  color: #333333;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1000;
+  text-align: left;
+  padding: 1rem 1rem 0 1rem;
+}
+
+/* Scrollable item list */
+.cart-items-container {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 4px;
+  margin-bottom: 1rem;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #b0b6b3;
+  padding-bottom: 0.5rem;
+}
+
+.qty-btn {
+  padding: 2px 8px;
+  margin: 0 4px;
+  cursor: pointer;
+  background-color: #ffbd59;
+  border: none;
+  border-radius: 4px;
+  color: #f1eee3;
+}
+
+.qty-count {
+  margin: 0 8px;
+  color: #333333;
+}
+
+.remove-btn {
+  margin-top: 0.5rem;
+  padding: 4px 8px;
+  background-color: #698b7f;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Set Order button container */
+.cart-total {
+  background: #f1eee3;
+  padding: 1rem;
+  font-weight: bold;
+  border-top: 1px solid #333333;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+   flex-direction: column; /* ← FIX */
+  justify-content: center; /* centers the button */
+  z-index: 999;
+}
+
+.checkout-btn {
+  width: 100%;
+  max-width: 200px; /* limits button width */
+  padding: 0.5rem;
+  background-color: #06402a;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #ffffff; /* changed to white */
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #ffbd59;
+  color: #06402a; /* optional: hover text contrast */
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333333;
+}
+
+.close-btn:hover {
+  color: #ffbd59;
+}
+
+/* Responsive fixes */
+@media (max-width: 1024px) {
+  .cart-sidebar {
+    width: 90vw;
+    top: 60px;
+    height: calc(100% - 60px);
+    padding: 1rem;
+  }
+
+  .cart-item {
+    font-size: 0.9rem;
+  }
+
+  .checkout-btn {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart-sidebar {
+    width: 95vw;
+    padding: 0.8rem;
+  }
+
+  .checkout-btn {
+    font-size: 0.9rem;
+    max-width: 160px;
+  }
+}

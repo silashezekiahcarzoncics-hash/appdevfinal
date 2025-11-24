@@ -1,0 +1,190 @@
+.customer-form-container h2 {
+  text-align: center;
+}
+
+/* Form Group Container */
+.customer-form-group {
+  margin-bottom: 1rem;
+}
+
+/* Label Styling */
+.customer-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #735c3b; /* dark accent text */
+}
+
+/* Input and Button Horizontal Wrapper */
+.customer-form-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+/* Text Field Input */
+.customer-form-input-wrapper input {
+  flex: 1;
+  padding: 0.4rem;
+  border: 1px solid #735c3b; /* dark border */
+  border-radius: 4px;
+  font-size: 0.95rem;
+  background-color: #f1eee3; /* light accent background */
+  color: #735c3b;
+}
+
+.customer-form-input-wrapper input:focus {
+  outline: none;
+  border-color: #06402a; /* highlight border */
+}
+
+/* CLEAR Button */
+.customer-form-input-wrapper button {
+  padding: 0.4rem 0.6rem;
+  background-color: #735c3b;
+  color: #f1eee3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+  height: auto;
+  white-space: nowrap;
+}
+
+.customer-form-input-wrapper button:hover {
+  background-color: #06402a;
+  color: #735c3b;
+}
+
+/* Validation Error Text */
+.error-text {
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+}
+
+/* Buttons Under Form */
+.customer-form-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.customer-form-buttons button {
+  padding: 0.5rem 1rem;
+  background-color: #735c3b;
+  color: #f1eee3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.customer-form-buttons button:hover {
+  background-color: #06402a;
+  color: #735c3b;
+}
+
+/* Status Message */
+.submit-status {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Disabled Button */
+.customer-form-buttons button:disabled {
+  background-color: #888;
+  color: #ddd;
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.submit-success {
+  text-align: justify;
+  max-width: 600px;
+  margin: 1rem auto;
+  font-size: 1rem;
+  color: #2e7d32;
+  line-height: 1.6;
+}
+
+/* Lightbox modal background */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(115, 92, 59, 0.7); /* dark overlay using palette */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Modal box */
+.modal-box {
+  background: #f1eee3; /* light modal background */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  color: #735c3b;
+  box-shadow: 0 5px 20px rgba(115, 92, 59, 0.3);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Modal scrollable content */
+.modal-content {
+  flex: 1;
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-top: 10px;
+  padding-right: 5px;
+}
+
+/* Terms + Checkbox wrapper */
+.terms-wrapper {
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+
+.terms-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.terms-container label {
+  white-space: normal;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #735c3b;
+}
+
+/* RESPONSIVE TWEAKS */
+@media (max-width: 600px) {
+  .modal-box {
+    width: 95%;
+    padding: 15px;
+    max-height: 85vh;
+  }
+
+  .modal-content {
+    max-height: 55vh;
+    font-size: 0.9rem;
+  }
+
+  .terms-container label {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+}

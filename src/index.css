@@ -1,0 +1,51 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #735c3b; /* Dark accent for text */
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #fbf9f5; /* Light cream background */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #735c3b; /* Dark accent for headings */
+}
+
+a {
+  font-weight: 500;
+  color: #ffbd59; /* Accent color for links */
+  text-decoration: none;
+}
+a:hover {
+  color: #e6ac4c; /* Slightly darker accent on hover */
+}
+
+input {
+  background-color: #f1eee3; /* Light cream input background */
+  color: #735c3b; /* Dark text */
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid #735c3b; /* Dark border */
+}
+
+input:focus {
+  outline: none;
+  border-color: #ffbd59; /* Accent color on focus */
+}

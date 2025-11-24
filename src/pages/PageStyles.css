@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #735c3b; /* Dark accent for text */
+  background-color: #f1eee3; /* Light cream background */
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Remove page-specific background images */
+body.home-bg,
+body.aboutus-bg,
+body.contact-bg {
+  background-image: none;
+}
+
+/* Common content container style */
+.page-content-container {
+  background-color: #f1eee3; /* light cream */
+  border-radius: 12px;
+  padding: 40px 30px;
+  max-width: 900px;
+  margin: 10px auto;
+  box-shadow: 0 4px 10px rgba(115, 92, 59, 0.2); /* subtle dark accent shadow */
+  color: #06402a; /* dark accent text */
+  width: 95%;
+}
+
+@media (max-width: 768px) {
+  .page-content-container {
+    padding: 20px 16px;
+    margin: 20px auto;
+    width: 95%;
+  }
+}

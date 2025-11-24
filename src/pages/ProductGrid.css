@@ -1,0 +1,103 @@
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.product-card {
+  position: relative;
+  width: 220px; /* slightly wider for better spacing */
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  background: #f1eee3; /* main container color */
+  box-shadow: 0 2px 5px rgba(43, 36, 26, 0.3); /* subtle shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1; /* perfect square */
+  object-fit: contain; /* fit image without cropping */
+  border-radius: 6px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.product-name {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  color: #735c3b; /* dark accent text */
+  text-align: left;
+  margin-bottom: 10px;
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.2;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #735c3b; /* dark accent */
+  margin-top: auto;
+}
+
+.product-button {
+  margin-top: 0.5rem;
+  background-color: #06402a; /* solid dark button */
+  color: #f1eee3; /* light text */
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(115, 92, 59, 0.3);
+  transition: all 0.3s ease;
+}
+
+.product-button:hover {
+  background-color: #ffbd59; /* hover accent */
+  color: #735c3b; 
+  box-shadow: 0 6px 18px rgba(115, 92, 59, 0.4);
+  transform: translateY(-2px);
+}
+
+.product-button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(115, 92, 59, 0.2);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .product-card {
+    width: 90%; /* full width on mobile with margins */
+    margin: 0 auto;
+    padding: 1rem;  
+  }
+
+  .product-name {
+    font-size: 1rem;
+  }
+
+  .product-price {
+    font-size: 1rem;
+    margin-top: auto;
+  }
+
+  .product-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
