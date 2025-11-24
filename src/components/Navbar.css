@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -6,12 +9,21 @@
 
 .navbar {
   display: flex;
+<<<<<<< HEAD
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 0.25rem;
   background: #06402a; /* Home page dark teal */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+=======
+  flex-wrap: wrap; /* allow wrapping if needed, but horizontally */
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem; /* reduced gap for smaller screens */
+  background: rgb(255, 165, 0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.94);
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
   padding: 0.75rem 1rem;
   border-radius: 12px;
   margin: 0 auto 1rem;
@@ -27,6 +39,7 @@
   border-radius: 8px;
   cursor: pointer;
   background: transparent;
+<<<<<<< HEAD
   color:#f1eee3; /* Light accent for text */
   transition: all 0.3s ease;
   white-space: nowrap;
@@ -35,10 +48,21 @@
 .navbar-button.selected {
   background: #698b7f; /* Updated selected button color */
   color: #f1eee3; /* Dark text for contrast */
+=======
+  color: #333;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* prevent text from breaking */
+}
+
+.navbar-button.selected {
+  background: rgb(166, 138, 0);
+  color: #fff;
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-button:hover:not(.selected) {
+<<<<<<< HEAD
   background: rgba(241, 238, 227, 0.25); /* Subtle hover effect matching selected color */
 }
 
@@ -46,11 +70,24 @@
 @media (max-width: 480px) {
   .navbar {
     gap: 0.1rem;
+=======
+  background: rgba(166, 138, 0, 0.28);
+}
+
+/* Optional: Adjust padding on smaller screens to avoid overflow */
+@media (max-width: 480px) {
+  .navbar {
+    gap: 0rem;
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
     padding: 0.50rem;
   }
 
   .navbar-button {
     padding: 6px 10px;
+<<<<<<< HEAD
     font-size: 0.75rem;
+=======
+    font-size: 0.5rem;
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
   }
 }

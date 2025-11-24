@@ -280,4 +280,8 @@ I hereby consent to the processing of my personal information.</label>
   );
 }
 
+<<<<<<< HEAD
 export default CustomerInfoForm;
+=======
+export default CustomerInfoForm;
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35

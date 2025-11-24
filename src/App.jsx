@@ -1,3 +1,4 @@
+<<<<<<< HEAD
       //\src\App.jsx
       import { BrowserRouter, Routes, Route } from "react-router-dom";
       import Home from "./pages/Home";
@@ -26,3 +27,23 @@
       }
 
       export default App;
+=======
+//C:\Users\Silas Carzon\saiphercg2.0\src\App.jsx
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import CustomerInfoForm from "./pages/CustomerInfoForm";
+
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/order" element={<CustomerInfoForm />} /> 
+    </Routes>
+  );
+}
+
+export default App;
+
+
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35

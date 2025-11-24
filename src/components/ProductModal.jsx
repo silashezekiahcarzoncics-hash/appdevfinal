@@ -149,7 +149,11 @@ function ProductModal({ isOpen, onRequestClose, product, addToCart }) {
         <button onClick={onRequestClose} className="cancel-button">
           Cancel
         </button>
+<<<<<<< HEAD
       <p className="total-price">Total: ₱{totalPrice.toFixed(2)}</p> 
+=======
+        {/*<p className="total-price">Total: ₱{totalPrice.toFixed(2)}</p> */}
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
         <button onClick={handleAddToCart} className="add-button">
           Add to Cart
         </button>

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 //\src\components\ProductModalv2.jsx
+=======
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import "./ProductModal.css"; // Reuse same CSS file
@@ -182,7 +185,11 @@ function ProductModalv2({ isOpen, onRequestClose, product, addToCart }) {
         <button className="cancel-button" onClick={onRequestClose}>
           Cancel
         </button>
+<<<<<<< HEAD
      <p className="total-price">Total: ₱{totalPrice.toFixed(2)}</p>
+=======
+       {/*<p className="total-price">Total: ₱{totalPrice.toFixed(2)}</p>*/}
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
         <button className="add-button" onClick={handleAddToCart}>
           Add to Cart
         </button>

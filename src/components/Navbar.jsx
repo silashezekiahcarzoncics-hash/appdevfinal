@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 //\src\components\Navbar.jsx
+=======
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
 import React from "react";
 import "./Navbar.css";
 

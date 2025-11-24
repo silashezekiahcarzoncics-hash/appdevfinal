@@ -4,6 +4,7 @@ import ProductModalWithPieces from "../components/ProductModalv2";
 import "../pages/ProductGrid.css";
 
 //product1
+<<<<<<< HEAD
 import product1a from "../assets/L1.PNG";
 import product1b from "../assets/L1.PNG";
 import product1c from "../assets/L1.PNG";
@@ -12,6 +13,16 @@ import product1e from "../assets/L1.PNG";
 import product1f from "../assets/L1.PNG";
 import product1g from "../assets/L1.PNG";
 import product81a from "../assets/L2.PNG";
+=======
+import product1a from "../assets/blank_image.jpg";
+import product1b from "../assets/blank_image.jpg";
+import product1c from "../assets/blank_image.jpg";
+import product1d from "../assets/blank_image.jpg";
+import product1e from "../assets/blank_image.jpg";
+import product1f from "../assets/blank_image.jpg";
+import product1g from "../assets/blank_image.jpg";
+import product81a from "../assets/blank_image.jpg";
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
 
 
 export const products = [

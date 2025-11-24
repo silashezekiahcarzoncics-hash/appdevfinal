@@ -4,6 +4,7 @@ import ProductModal from "../components/ProductModalv2";
 import "../pages/ProductGrid.css";
 
 //product1
+<<<<<<< HEAD
 import product1a from "../assets/SWR1.PNG";
 import product1b from "../assets/SWR1.PNG";
 import product1c from "../assets/SWR1.PNG";
@@ -17,6 +18,21 @@ import product2a from "../assets/SWR2.PNG";
 import product2b from "../assets/SWR2.PNG";
 import product2c from "../assets/SWR2.PNG";
 import product2d from "../assets/SWR2.PNG";
+=======
+import product1a from "../assets/blank_image.jpg";
+import product1b from "../assets/blank_image.jpg";
+import product1c from "../assets/blank_image.jpg";
+import product1d from "../assets/blank_image.jpg";
+import product1e from "../assets/blank_image.jpg";
+import product1f from "../assets/blank_image.jpg";
+import product1g from "../assets/blank_image.jpg";
+
+//product2
+import product2a from "../assets/blank_image.jpg";
+import product2b from "../assets/blank_image.jpg";
+import product2c from "../assets/blank_image.jpg";
+import product2d from "../assets/blank_image.jpg";
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
 
 
 

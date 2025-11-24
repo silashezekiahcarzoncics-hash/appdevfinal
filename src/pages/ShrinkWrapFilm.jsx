@@ -6,6 +6,7 @@ import ProductModalWithPieces from "../components/ProductModalv2";
 import "../pages/ProductGrid.css";
 
 
+<<<<<<< HEAD
 import product41a from "../assets/SWF1.PNG";
 import product42a from "../assets/SWF2.PNG";
 import product42b from "../assets/SWF2.PNG";
@@ -18,6 +19,20 @@ import product42h from "../assets/SWF2.PNG";
 import product42i from "../assets/SWF2.PNG";
 import product43a from "../assets/SWF3.PNG";
 import product43b from "../assets/SWF3.PNG";
+=======
+import product41a from "../assets/blank_image.jpg";
+import product42a from "../assets/blank_image.jpg";
+import product42b from "../assets/blank_image.jpg";
+import product42c from "../assets/blank_image.jpg";
+import product42d from "../assets/blank_image.jpg";
+import product42e from "../assets/blank_image.jpg";
+import product42f from "../assets/blank_image.jpg";
+import product42g from "../assets/blank_image.jpg";
+import product42h from "../assets/blank_image.jpg";
+import product42i from "../assets/blank_image.jpg";
+import product43a from "../assets/blank_image.jpg";
+import product43b from "../assets/blank_image.jpg";
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
 
 
 export const products = [

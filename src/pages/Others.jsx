@@ -3,10 +3,17 @@ import React, { useState } from "react";
 import ProductModal from "../components/ProductModalv2"; 
 import "../pages/ProductGrid.css";
 
+<<<<<<< HEAD
 import product1a from "../assets/O1.PNG";
 import product2a from "../assets/O2.PNG";
 import product2b from "../assets/O2.PNG";
 import product2c from "../assets/O2.PNG";
+=======
+import product1a from "../assets/blank_image.jpg";
+import product2a from "../assets/blank_image.jpg";
+import product2b from "../assets/blank_image.jpg";
+import product2c from "../assets/blank_image.jpg";
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
 
 
 

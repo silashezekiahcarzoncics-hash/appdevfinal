@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.13.2",
+=======
+>>>>>>> f337583942063416bf7b0a096a2860fbeadb3e35
     "bootstrap": "^5.3.6",
     "nodemailer": "^7.0.4",
     "react": "^19.1.0",
